@@ -6,7 +6,7 @@ from os import path
 
 if 'data_exporter' not in globals():
     from mage_ai.data_preparation.decorators import data_exporter
-
+#how is it 
 
 @data_exporter
 def export_data_to_big_query(data, **kwargs) -> None:
